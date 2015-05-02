@@ -1,0 +1,36 @@
+<html>
+<head>
+    <title>ClientProof.js | Example 1</title>
+    <link rel="stylesheet" href="/src/clientproof.css" type="text/css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="/src/clientproof.js" type="text/javascript"></script>
+    <script>
+        $(document).ready(function(){
+            /********** Example 1 *********/
+            /* Global Call to ClientProof (This will be applied to all form tag in the current page) */
+            ClientProof({
+                securityLevel: 1,
+                className: '',
+                hPos: 'left',
+                customMessage: 'prouts',
+                activatePopup: true
+            });
+
+            /********** Example 2 *********/
+            /* Attach ClientProof To Selector */
+            $('form').clientProof({
+                securityLevel: 1,
+                className: '',
+                hPos: 'right'
+            });
+        });
+    </script>
+</head>
+<body>
+<a href="">Link</a>
+    <form>
+        <input type="text" name="myName">
+        <input type="submit" value="Test">
+    </form>
+</body>
+</html>

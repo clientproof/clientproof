@@ -1,0 +1,31 @@
+{
+  "name": "clientproof",
+  "version": "0.0.1",
+  "authors": [
+    "(Sebastien Giroux (1@sebastiengiroux.com))"
+  ],
+  "description": "Protect your html form's against clients careless mistakes",
+  "main": "src/clientproof.js",
+  "keywords": [
+    "client",
+    "proof",
+    "protect",
+    "mistakes",
+    "careless",
+    "html",
+    "form",
+    "input"
+  ],
+  "license": "MIT",
+  "homepage": "www.clientproofjs.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.4"
+  }
+}

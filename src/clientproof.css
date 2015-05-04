@@ -22,3 +22,98 @@
     background-image: -o-linear-gradient(top, #e40a0a, #9f0202);
     background-image: linear-gradient(to bottom, #e40a0a, #9f0202);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#e40a0a, endColorstr=#9f0202);
 }
+
+/* Boostrap class override */
+.modal-content{
+    -webkit-box-shadow: 0 2px 5px rgba(0,0,0,.5) !important;
+    box-shadow: 0 2px 5px rgba(0,0,0,.5) !important;
+    border-radius: 0px !important;
+}
+
+.modal-title{
+    text-align: center;
+}
+
+.modal-footer .btn{
+    border-radius: 0px !important;
+}
+
+.modal-footer .btn-primary{
+    margin: 10px 0px;
+    border: 1px solid #df0909;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-family: arial, helvetica, sans-serif;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+    display: inline-block;
+    text-shadow: -1px -1px 0 rgba(0,0,0,0.3);
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #f62b2b;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#f62b2b), to(#d20202));
+    background-image: -webkit-linear-gradient(top, #f62b2b, #d20202);
+    background-image: -moz-linear-gradient(top, #f62b2b, #d20202);
+    background-image: -ms-linear-gradient(top, #f62b2b, #d20202);
+    background-image: -o-linear-gradient(top, #f62b2b, #d20202);
+    background-image: linear-gradient(to bottom, #f62b2b, #d20202);
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#f62b2b, endColorstr=#d20202);
+}
+
+.modal-footer .btn-primary:hover{
+    border: 1px solid #b30808;
+    background-color: #e40a0a;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#e40a0a), to(#9f0202));
+    background-image: -webkit-linear-gradient(top, #e40a0a, #9f0202);
+    background-image: -moz-linear-gradient(top, #e40a0a, #9f0202);
+    background-image: -ms-linear-gradient(top, #e40a0a, #9f0202);
+    background-image: -o-linear-gradient(top, #e40a0a, #9f0202);
+    background-image: linear-gradient(to bottom, #e40a0a, #9f0202);
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#e40a0a, endColorstr=#9f0202);
+}
+
+.customButton{
+    margin: 10px 0px;
+    border: 1px solid #09A6DF;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-family: arial, helvetica, sans-serif;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+    display: inline-block;
+    text-shadow: -1px -1px 0 rgba(0,0,0,0.3);
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #2BCFF6;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#2BCFF6), to(#027BD2));
+    background-image: -webkit-linear-gradient(top, #2BCFF6, #027BD2);
+    background-image: -moz-linear-gradient(top, #2BCFF6, #027BD2);
+    background-image: -ms-linear-gradient(top, #2BCFF6, #027BD2);
+    background-image: -o-linear-gradient(top, #2BCFF6, #027BD2);
+    background-image: linear-gradient(to bottom, #2BCFF6, #027BD2);
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#2BCFF6, endColorstr=#027BD2);
+}
+
+.customButton:hover{
+    border: 1px solid #09A6DF;
+    background-color: #0A91E4;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#0A91E4), to(#026F9F));
+    background-image: -webkit-linear-gradient(top, #0A91E4, #026F9F);
+    background-image: -moz-linear-gradient(top, #0A91E4, #026F9F);
+    background-image: -ms-linear-gradient(top, #0A91E4, #026F9F);
+    background-image: -o-linear-gradient(top, #0A91E4, #026F9F);
+    background-image: linear-gradient(to bottom, #0A91E4, #026F9F);
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#0A91E4, endColorstr=#026F9F);
+}
+
+#myForm{
+    margin: auto;
+    width: 500px;
+    -webkit-box-shadow: 0 2px 5px rgba(0,0,0,.5) !important;
+    box-shadow: 0 2px 5px rgba(0,0,0,.5) !important;
+    padding: 20px;
+}
